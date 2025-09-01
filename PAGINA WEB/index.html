@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gordão 24h — Bebidas a qualquer hora</title>
+  <meta name="description" content="As melhores bebidas, a qualquer hora, no Gordão 24h." />
+  <link rel="icon" href="Gordao24h.png" type="image/png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    .logo-animation { animation: bounce 2s infinite; }
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-yellow-400 via-yellow-500 to-orange-500 text-white">
+  <header class="sticky top-0 z-50 bg-yellow-600/80 shadow-lg">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <img src="Gordao24h.png" alt="Logo Gordão 24h" class="w-16 h-16 logo-animation rounded-full">
+      <nav class="hidden md:flex gap-6 text-lg font-bold">
+        <a href="#sobre" class="hover:text-black">Sobre</a>
+        <a href="#cardapio" class="hover:text-black">Cardápio</a>
+        <a href="#contato" class="hover:text-black">Contato</a>
+      </nav>
+      <a href="https://wa.me/5514930856862-" target="_blank" class="bg-black text-yellow-400 px-4 py-2 rounded-lg shadow hover:opacity-90">WhatsApp</a>
+    </div>
+  </header>
+
+  <section class="text-center py-20 px-6">
+    <img src="Gordao24h.png" alt="Logo Gordão 24h" class="mx-auto w-40 h-40 logo-animation">
+    <h1 class="text-5xl font-extrabold mt-6">Gordão 24h</h1>
+    <p class="mt-4 text-xl font-medium">As melhores bebidas, a qualquer hora!</p>
+    <a href="https://wa.me/5514930856862" target="_blank" class="mt-6 inline-block bg-black text-yellow-400 px-6 py-3 rounded-full text-lg font-semibold shadow hover:scale-105 transition">Peça agora!</a>
+  </section>
+
+  <!-- Seção Bebidas -->
+<section id="bebidas" style="padding: 60px 20px; background-color: #fffbe6; text-align: center;">
+    <h2 style="font-size: 3rem; color: #0077b6; margin-bottom: 50px; font-family: 'Arial Black', sans-serif;">Bebidas</h2>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
+
+        <!-- Card 1: Cerveja Lata -->
+        <div style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 15px rgba(0,0,0,0.1); width: 260px; overflow: hidden; transition: transform 0.3s, box-shadow 0.3s;">
+            <img src="https://via.placeholder.com/260x160.png?text=Cerveja+Lata" alt="Cerveja Lata" style="width: 100%; height: 160px; object-fit: cover;">
+            <div style="padding: 20px;">
+                <h3 style="color: #2a2a2a; margin-bottom: 10px;">Cerveja Lata</h3>
+                <p style="color: #555; margin-bottom: 20px;">Cerveja gelada em lata, perfeita para acompanhar o seu petisco.</p>
+                <a href="https://wa.me/5514930856862?text=Olá,%20gostaria%20de%20pedir%20uma%20Cerveja%20Lata" target="_blank" style="background-color: #0077b6; color: #fff; text-decoration: none; padding: 10px 20px; border-radius: 8px; font-weight: bold; display: inline-block; transition: background-color 0.3s;">Peça agora</a>
+            </div>
+        </div>
+
+        <!-- Card 2: Refrigerante -->
+        <div style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 15px rgba(0,0,0,0.1); width: 260px; overflow: hidden; transition: transform 0.3s, box-shadow 0.3s;">
+            <img src="https://via.placeholder.com/260x160.png?text=Refrigerante" alt="Refrigerante" style="width: 100%; height: 160px; object-fit: cover;">
+            <div style="padding: 20px;">
+                <h3 style="color: #2a2a2a; margin-bottom: 10px;">Refrigerante</h3>
+                <p style="color: #555; margin-bottom: 20px;">Escolha entre Coca-Cola, Guaraná ou Fanta. Geladinho para refrescar!</p>
+                <a href="https://wa.me/5514930856862?text=Olá,%20gostaria%20de%20pedir%20um%20Refrigerante" target="_blank" style="background-color: #0077b6; color: #fff; text-decoration: none; padding: 10px 20px; border-radius: 8px; font-weight: bold; display: inline-block; transition: background-color 0.3s;">Peça agora</a>
+            </div>
+        </div>
+
+        <!-- Card 3: Suco Natural -->
+        <div style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 15px rgba(0,0,0,0.1); width: 260px; overflow: hidden; transition: transform 0.3s, box-shadow 0.3s;">
+            <img src="https://via.placeholder.com/260x160.png?text=Suco+Natural" alt="Suco Natural" style="width: 100%; height: 160px; object-fit: cover;">
+            <div style="padding: 20px;">
+                <h3 style="color: #2a2a2a; margin-bottom: 10px;">Suco Natural</h3>
+                <p style="color: #555; margin-bottom: 20px;">Suco fresco de frutas naturais, delicioso e saudável.</p>
+                <a href="https://wa.me/5514930856862?text=Olá,%20gostaria%20de%20pedir%20um%20Suco%20Natural" target="_blank" style="background-color: #0077b6; color: #fff; text-decoration: none; padding: 10px 20px; border-radius: 8px; font-weight: bold; display: inline-block; transition: background-color 0.3s;">Peça agora</a>
+            </div>
+        </div>
+
+        <!-- Card 4: Vodka -->
+        <div style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 15px rgba(0,0,0,0.1); width: 260px; overflow: hidden; transition: transform 0.3s, box-shadow 0.3s;">
+            <img src="https://via.placeholder.com/260x160.png?text=Vodka" alt="Vodka" style="width: 100%; height: 160px; object-fit: cover;">
+            <div style="padding: 20px;">
+                <h3 style="color: #2a2a2a; margin-bottom: 10px;">Vodka</h3>
+                <p style="color: #555; margin-bottom: 20px;">Vodka pura ou em drinks, perfeita para começar a noite com os amigos.</p>
+                <a href="https://wa.me/5514930856862?text=Olá,%20gostaria%20de%20pedir%20uma%20Vodka" target="_blank" style="background-color: #0077b6; color: #fff; text-decoration: none; padding: 10px 20px; border-radius: 8px; font-weight: bold; display: inline-block; transition: background-color 0.3s;">Peça agora</a>
+            </div>
+        </div>
+
+        <!-- Card 5: Caipirinha -->
+        <div style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 15px rgba(0,0,0,0.1); width: 260px; overflow: hidden; transition: transform 0.3s, box-shadow 0.3s;">
+            <img src="https://via.placeholder.com/260x160.png?text=Caipirinha" alt="Caipirinha" style="width: 100%; height: 160px; object-fit: cover;">
+            <div style="padding: 20px;">
+                <h3 style="color: #2a2a2a; margin-bottom: 10px;">Caipirinha</h3>
+                <p style="color: #555; margin-bottom: 20px;">Tradicional caipirinha de limão, doce ou amarga, sempre refrescante.</p>
+                <a href="https://wa.me/5514930856862?text=Olá,%20gostaria%20de%20pedir%20uma%20Caipirinha" target="_blank" style="background-color: #0077b6; color: #fff; text-decoration: none; padding: 10px 20px; border-radius: 8px; font-weight: bold; display: inline-block; transition: background-color 0.3s;">Peça agora</a>
+            </div>
+        </div>
+
+        <!-- Card 6: Energético -->
+        <div style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 15px rgba(0,0,0,0.1); width: 260px; overflow: hidden; transition: transform 0.3s, box-shadow 0.3s;">
+            <img src="https://via.placeholder.com/260x160.png?text=Energético" alt="Energético" style="width: 100%; height: 160px; object-fit: cover;">
+            <div style="padding: 20px;">
+                <h3 style="color: #2a2a2a; margin-bottom: 10px;">Energético</h3>
+                <p style="color: #555; margin-bottom: 20px;">Bebida energética para dar aquele gás na noite ou acompanhar os petiscos.</p>
+                <a href="https://wa.me/5514930856862?text=Olá,%20gostaria%20de%20pedir%20um%20Energético" target="_blank" style="background-color: #0077b6; color: #fff; text-decoration: none; padding: 10px 20px; border-radius: 8px; font-weight: bold; display: inline-block; transition: background-color 0.3s;">Peça agora</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- CSS para Hover e Responsividade -->
+<style>
+    #bebidas div:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+
+    #bebidas a:hover {
+        background-color: #005f8a;
+    }
+
+    @media screen and (max-width: 850px) {
+        #bebidas div {
+            width: 80%;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        #bebidas h2 {
+            font-size: 2rem;
+        }
+    }
+</style>
+
+<!-- Seção Comidas e Petiscos -->
+<section id="comidas-petiscos" style="padding: 60px 20px; background-color: #fffbe6; text-align: center;">
+    <h2 style="font-size: 3rem; color: #e63946; margin-bottom: 50px; font-family: 'Arial Black', sans-serif;">Comidas & Petiscos</h2>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
+
+        <!-- Card 1: Pastel -->
+        <div style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 15px rgba(0,0,0,0.1); width: 260px; overflow: hidden; transition: transform 0.3s, box-shadow 0.3s;">
+            <img src="pastel.jpeg" alt="Pastel" style="width: 100%; height: 160px; object-fit: cover;">
+            <div style="padding: 20px;">
+                <h3 style="color: #2a2a2a; margin-bottom: 10px;">Pastel</h3>
+                <p style="color: #555; margin-bottom: 20px;">Pastel crocante recheado com carne, queijo ou frango, perfeito para qualquer hora do dia!</p>
+                <a href="https://wa.me/5514930856862?text=Olá,%20gostaria%20de%20pedir%20um%20Pastel" target="_blank" style="background-color: #e63946; color: #fff; text-decoration: none; padding: 10px 20px; border-radius: 8px; font-weight: bold; display: inline-block; transition: background-color 0.3s;">Peça agora</a>
+            </div>
+        </div>
+
+        <!-- Card 2: Batata Frita -->
+        <div style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 15px rgba(0,0,0,0.1); width: 260px; overflow: hidden; transition: transform 0.3s, box-shadow 0.3s;">
+            <img src="combo fritas.jpg" alt="Batata Frita" style="width: 100%; height: 160px; object-fit: cover;">
+            <div style="padding: 20px;">
+                <h3 style="color: #2a2a2a; margin-bottom: 10px;">Batata Frita</h3>
+                <p style="color: #555; margin-bottom: 20px;">Crocantes por fora e macias por dentro, servidas com ketchup e maionese.</p>
+                <a href="https://wa.me/5514930856862?text=Olá,%20gostaria%20de%20pedir%20uma%20Batata%20Frita" target="_blank" style="background-color: #e63946; color: #fff; text-decoration: none; padding: 10px 20px; border-radius: 8px; font-weight: bold; display: inline-block; transition: background-color 0.3s;">Peça agora</a>
+            </div>
+        </div>
+
+        <!-- Card 3: Frango a Passarinho -->
+        <div style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 15px rgba(0,0,0,0.1); width: 260px; overflow: hidden; transition: transform 0.3s, box-shadow 0.3s;">
+            <img src="frango.webp" alt="Frango a Passarinho" style="width: 100%; height: 160px; object-fit: cover;">
+            <div style="padding: 20px;">
+                <h3 style="color: #2a2a2a; margin-bottom: 10px;">Frango a Passarinho</h3>
+                <p style="color: #555; margin-bottom: 20px;">Pequenos pedaços de frango fritos, temperados com alho e ervas finas.</p>
+                <a href="https://wa.me/5514930856862?text=Olá,%20gostaria%20de%20pedir%20um%20Frango%20a%20Passarinho" target="_blank" style="background-color: #e63946; color: #fff; text-decoration: none; padding: 10px 20px; border-radius: 8px; font-weight: bold; display: inline-block; transition: background-color 0.3s;">Peça agora</a>
+            </div>
+        </div>
+
+        <!-- Card 4: Calabresa Acebolada -->
+        <div style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 15px rgba(0,0,0,0.1); width: 260px; overflow: hidden; transition: transform 0.3s, box-shadow 0.3s;">
+            <img src="https://via.placeholder.com/260x160.png?text=Calabresa+Acebolada" alt="Calabresa Acebolada" style="width: 100%; height: 160px; object-fit: cover;">
+            <div style="padding: 20px;">
+                <h3 style="color: #2a2a2a; margin-bottom: 10px;">Calabresa Acebolada</h3>
+                <p style="color: #555; margin-bottom: 20px;">Saborosa calabresa frita com cebolas caramelizadas, perfeita para acompanhar a bebida.</p>
+                <a href="https://wa.me/5514930856862?text=Olá,%20gostaria%20de%20pedir%20uma%20Calabresa%20Acebolada" target="_blank" style="background-color: #e63946; color: #fff; text-decoration: none; padding: 10px 20px; border-radius: 8px; font-weight: bold; display: inline-block; transition: background-color 0.3s;">Peça agora</a>
+            </div>
+        </div>
+
+        <!-- Card 5: Coxinha -->
+        <div style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 15px rgba(0,0,0,0.1); width: 260px; overflow: hidden; transition: transform 0.3s, box-shadow 0.3s;">
+            <img src="https://via.placeholder.com/260x160.png?text=Coxinha" alt="Coxinha" style="width: 100%; height: 160px; object-fit: cover;">
+            <div style="padding: 20px;">
+                <h3 style="color: #2a2a2a; margin-bottom: 10px;">Coxinha</h3>
+                <p style="color: #555; margin-bottom: 20px;">Tradicional coxinha de frango com massa crocante e recheio suculento.</p>
+                <a href="https://wa.me/5514930856862?text=Olá,%20gostaria%20de%20pedir%20uma%20Coxinha" target="_blank" style="background-color: #e63946; color: #fff; text-decoration: none; padding: 10px 20px; border-radius: 8px; font-weight: bold; display: inline-block; transition: background-color 0.3s;">Peça agora</a>
+            </div>
+        </div>
+
+        <!-- Card 6: Bolinho de Queijo -->
+        <div style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 15px rgba(0,0,0,0.1); width: 260px; overflow: hidden; transition: transform 0.3s, box-shadow 0.3s;">
+            <img src="https://via.placeholder.com/260x160.png?text=Bolinho+de+Queijo" alt="Bolinho de Queijo" style="width: 100%; height: 160px; object-fit: cover;">
+            <div style="padding: 20px;">
+                <h3 style="color: #2a2a2a; margin-bottom: 10px;">Bolinho de Queijo</h3>
+                <p style="color: #555; margin-bottom: 20px;">Bolinho recheado com queijo derretido, perfeito para beliscar com os amigos.</p>
+                <a href="https://wa.me/5514930856862?text=Olá,%20gostaria%20de%20pedir%20um%20Bolinho%20de%20Queijo" target="_blank" style="background-color: #e63946; color: #fff; text-decoration: none; padding: 10px 20px; border-radius: 8px; font-weight: bold; display: inline-block; transition: background-color 0.3s;">Peça agora</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- CSS para Hover e Responsividade -->
+<style>
+    #comidas-petiscos div:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+
+    #comidas-petiscos a:hover {
+        background-color: #d62828;
+    }
+
+    @media screen and (max-width: 850px) {
+        #comidas-petiscos div {
+            width: 80%;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        #comidas-petiscos h2 {
+            font-size: 2rem;
+        }
+    }
+</style>
+
+<!-- CSS para Hover e Responsividade -->
+<style>
+    #comidas-petiscos div:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+
+    #comidas-petiscos button:hover {
+        background-color: #d62828;
+    }
+
+    @media screen and (max-width: 850px) {
+        #comidas-petiscos div {
+            width: 80%;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        #comidas-petiscos h2 {
+            font-size: 2rem;
+        }
+    }
+</style>
+
+
+  <footer class="bg-black text-center py-6 text-yellow-400 font-medium">
+    © <span id="year"></span> Gordão 24h — Todos os direitos reservados.
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
